@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Folder, Search, Tag, FileText, Plus, Edit3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -24,7 +23,7 @@ interface FolderType {
   id: string;
   name: string;
   parentId: string | null;
-  children: FolderType[];
+  children: string[];
 }
 
 const Index = () => {
